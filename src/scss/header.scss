@@ -1,0 +1,33 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header__container {
+  min-height: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  row-gap: 15px;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .header__container {
+    min-height: 0;
+    flex-direction: column;
+  }
+}
+
+.header__logo {
+  font-weight: 480;
+  font-size: 24px;
+  color: #62d0df;
+}
+
+.header__menu {
+}

@@ -9,7 +9,6 @@
 
 a {
   text-decoration: none;
-
 }
 
 a:hover {
@@ -99,6 +98,8 @@ body {
 }
 
 .header__container {
+  padding-left: 150px;
+  background-color: #f4f9e2;
   min-height: 100px;
   display: flex;
   row-gap: 15px;
@@ -141,10 +142,10 @@ body {
 }
 
 .button_blue {
-
   position: relative;
   display: inline-block;
   padding: 15px 20px;
+  margin-right: 95px;
   background: #62d0df;
   border-radius: 50px;
   color: white;
@@ -157,7 +158,6 @@ body {
   color: #050d25;
 }
 
-
 @media (max-width: 767.98px) {
   .menu__list {
     justify-content: center;
@@ -167,24 +167,24 @@ body {
 /* =============================== */
 
 .who-am-i {
-  background-color: #f4f9e2;
-  padding: 150px 0px 50px 0px;
+
 }
 
 .who-am-i__wrapper__container {
-  padding-bottom: 75px;
+  background-color: #f4f9e2;
+  padding-bottom: 115px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .who-am-i__text {
+  padding-left: 150px;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
   max-width: 50%;
 }
-
-
 
 .block-text__logo {
   font-weight: 600;
@@ -209,7 +209,8 @@ body {
   font-size: 24px;
 }
 
-.btn__holder {}
+.btn__holder {
+}
 
 .block-text__button {
   font-weight: 500;
@@ -224,44 +225,40 @@ body {
   color: white;
 }
 
-
 .who-am-i__img-holder img {
-    max-width: 100%;
-    position: absolute;
-    top: 0;
-    right: 100px;
-    z-index: 0;
-  }
-  
-  .active::after {
-    
-position: absolute;
-   content: "";
-   display: block;
-   width: 100%;
-   height: 2px;
-   bottom: -10px;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  right: 226px;
+  z-index: 0;
+}
+
+.active::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: -10px;
   background-color: #050d25;
-  }
-
-
-
+}
 
 /* =============================== */
 
 .why-thrive {
-background-color: #62D0DF;
+
 }
 
 .why-thrive__wrapper__container {
-
+  background-color: #62d0df;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  /* flex-wrap: wrap;
+  justify-content: space-between; */
 }
 
 .why-thrive__text-block {
+  padding-left: 150px;
   display: flex;
   flex-direction: column;
   max-width: 50%;
@@ -273,7 +270,6 @@ background-color: #62D0DF;
   padding-bottom: 85px;
   font-size: 36px;
   color: white;
-
 }
 
 .why-thrive__text {
@@ -282,28 +278,24 @@ background-color: #62D0DF;
   line-height: normal;
   color: white;
   padding-bottom: 75px;
-
-
 }
 
-.why-thrive__img-holder img{
+.why-thrive__img-holder img {
   max-width: 100%;
+  margin-left: 213px;
 }
 
 /* =============================== */
 
 .about-us {
-
 }
 
 .about-us__wrapper__container {
-
 }
 
 .about-us_text-block {
-color: #22356F;
+  color: #22356f;
 }
-
 
 .about-us-center-text {
   line-height: normal;
@@ -318,48 +310,49 @@ color: #22356F;
 .about-us-bottom-text {
   margin-left: 760px;
   margin-bottom: 50px;
-color: hsla(225, 53%, 28%, 0.5);
+  color: hsla(225, 53%, 28%, 0.5);
 }
 
 .about-us_list-block {
-margin-bottom: 120px;
+  margin-bottom: 120px;
 }
 
-.about-us-list{
+.about-us-list {
   display: flex;
 }
 
-.about-us-list li{
+.about-us-list li {
   font-size: 25px;
   display: block;
   width: 25%;
-  height: 320px;   
+  height: 320px;
 }
 .about-us-item_1 {
   position: relative;
-background-image: url(/src/images/Mask\ Group2.png);
+  background-image: url(/src/images/Mask\ Group2.png);
   color: white;
-background-color: #FFE2DE;
+  background-color: #ffe2de;
 }
 
-.about-us-item_1 span,h1 {
+.about-us-item_1 span,
+h1 {
   position: relative;
   z-index: 4;
 }
 
 .about-us-item_2 {
   color: white;
-background-color: #C4E769;
+  background-color: #c4e769;
 }
 
 .about-us-item_3 {
   color: white;
-background-color: #62D0DF;
+  background-color: #62d0df;
 }
 
 .about-us-item_4 {
   color: white;
-background-color: #0052C1;
+  background-color: #0052c1;
 }
 
 .dot {
@@ -370,12 +363,11 @@ background-color: #0052C1;
 
 h1 {
   margin: 50px;
-border: 1px solid white;
+  border: 1px solid white;
 }
 
-
 .active-2:hover {
-background-image: url(/src/images/Mask\ Group2.png);
+  background-image: url(/src/images/Mask\ Group2.png);
 }
 
 .mask {
@@ -383,7 +375,7 @@ background-image: url(/src/images/Mask\ Group2.png);
   width: 100%;
   height: 100%;
   z-index: 3;
-  background-color: #FFE2DE;
+  background-color: #ffe2de;
   transition: 0.3s;
 }
 .mask:hover {
@@ -392,16 +384,14 @@ background-image: url(/src/images/Mask\ Group2.png);
 /* =============================== */
 
 .services {
-
 }
 
 .services__wrapper__container {
-
 }
 
 .services_list {
-display: flex;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .services_list li {
@@ -413,38 +403,38 @@ flex-wrap: wrap;
 }
 
 .services_item_1 {
-  background-color: #22356F;
-color: white;
+  background-color: #22356f;
+  color: white;
 }
 
 .services_item_2 {
-  background-color: #0052C1;
+  background-color: #0052c1;
   color: white;
 }
 
 .services_item_3 {
-  background-color: #FFE2DE;
+  background-color: #ffe2de;
   color: white;
 }
 
 .services_item_4 {
-  background-color: #62D0DF;
+  background-color: #62d0df;
   color: white;
 }
 
 .services_item_5 {
-  background-color: #DEE1FF;
+  background-color: #dee1ff;
   color: white;
 }
 
 .services_item_6 {
-  background-color: #8F00FF;
+  background-color: #8f00ff;
   color: white;
 }
 
 .services_list_text {
-display: flex;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .services_list_text li {
@@ -509,18 +499,17 @@ flex-wrap: wrap;
 
 /* =============================== */
 
-.you-should-know {}
+.you-should-know {
+}
 
 .you-should-know__wrapper__container {
-display: flex;
+  display: flex;
 }
 
 .you-should-know-picture {
-
 }
 
 .you-should-know-text {
-
 }
 
 .you-should-know-title-text {
@@ -534,13 +523,13 @@ display: flex;
   margin: 70px;
   font-weight: 500;
   font-size: 36px;
-  color: #22356F;
+  color: #22356f;
   margin-left: 100px;
   padding-top: 150px;
 }
 
 .blue-text {
-  color: #62D0DF;
+  color: #62d0df;
 }
 
 .you-should-know-button {
@@ -551,47 +540,47 @@ display: flex;
 
 /* =============================== */
 
-.contact-us-block {}
+.contact-us-block {
+}
 
 .contact-us-block__wrapper__container {
   display: flex;
-
 }
 
 .contact-us-block-text {
-    background-color: #22356F;
+  padding-right: 300px;
+  background-color: #22356f;
   color: white;
 }
 
 .contact-us-block-text-title-1 {
-    margin-left: 120px;
-    margin-top: 100px;
-    margin-bottom: 210px;
-  font-size: 16px; 
-
+  margin-left: 120px;
+  margin-top: 90px;
+  margin-bottom: 130px;
+  font-size: 16px;
 }
 
 .contact-us-block-text-title-2 {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   margin-left: 120px;
   font-size: 64px;
 }
 
 .contact-us-block-text-title-3 {
   line-height: normal;
-margin-bottom: 100px;
-font-size: 36px;
-margin-left: 120px;
+  margin-bottom: 100px;
+  font-size: 36px;
+  margin-left: 120px;
+  max-width: 600px;
 }
 
 .contact-us-block-text-button {
-
 }
 
 .contact-us-block-text-cean-button {
   margin-left: 120px;
-font-size: 16px;
-  color: #62D0DF;
+  font-size: 16px;
+  color: #62d0df;
 }
 
 .contact-us-block-picture {
@@ -599,3 +588,92 @@ font-size: 16px;
 }
 /* =============================== */
 
+@media (max-width: 768px) {
+  .why-thrive__img-holder img {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .who-am-i__img-holder img {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .you-should-know-picture {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-us-block-picture {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer_picture_holder {
+    display: none;
+  }
+}
+
+/* =============================== */
+
+.footer {
+}
+
+.footer__container {
+  display: flex;
+}
+
+.footer_picture_holder {
+}
+
+.futer_info {
+}
+
+.fotter_info_text {
+
+  padding-left: 75px;
+  padding-top: 75px;
+  max-width: 600px;
+  line-height: normal;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer_some-info {
+
+  font-size: 14px;
+  flex: 0 1 33%;
+}
+
+.footer-enfold-health {
+
+}
+
+.footer_office {
+
+}
+
+
+
+.footer_some-info-title {
+
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.footer_copyright__container {
+  font-size: 14px;
+  color: white;
+}
+
+.footer_copyright_1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 200px;
+  background-color: #62d0df;
+}
+/* =============================== */

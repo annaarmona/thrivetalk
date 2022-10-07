@@ -150,7 +150,7 @@ body {
   border-radius: 50px;
   color: white;
   transition: background-color 0.3s ease 0s;
-  z-index: 2;
+  z-index: 3;
 }
 
 .menu__link {
@@ -225,13 +225,23 @@ body {
   color: white;
 }
 
+.who-am-i__img-holder-2 img {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  right: 226px;
+  z-index: 1;
+}
+
 .who-am-i__img-holder img {
   max-width: 100%;
   position: absolute;
   top: 0;
   right: 226px;
-  z-index: 0;
+  z-index: 2;
 }
+
+
 
 .active::after {
   position: absolute;
@@ -438,6 +448,8 @@ h1 {
 }
 
 .services_list_text li {
+  padding-top: 50px;
+  padding-bottom: 300px;
   font-weight: 200px;
   line-height: normal;
   font-size: 16px;
@@ -631,36 +643,33 @@ h1 {
 }
 
 .futer_info {
+
 }
 
 .fotter_info_text {
+  padding-left: 90px;
 
-  padding-left: 75px;
   padding-top: 75px;
-  max-width: 600px;
   line-height: normal;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+
 }
 
 .footer_some-info {
-
+  display: block;
   font-size: 14px;
   flex: 0 1 33%;
 }
 
-.footer-enfold-health {
 
-}
-
-.footer_office {
-
-}
 
 
 
 .footer_some-info-title {
-
+  padding-bottom: 50px;
+  display: block;
   font-size: 16px;
   font-weight: 550;
 }
@@ -677,3 +686,14 @@ h1 {
   background-color: #62d0df;
 }
 /* =============================== */
+
+
+/* font-weight: 200px;
+  line-height: normal;
+  font-size: 16px;
+  display: block;
+  width: 33.33%;
+  height: 240px;
+  max-width: 450px;
+  margin: 0 auto;
+  justify-content: center; */

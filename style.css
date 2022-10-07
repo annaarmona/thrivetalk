@@ -339,7 +339,7 @@ body {
 }
 .about-us-item_1 {
   position: relative;
-  background-image: url(/src/images/Mask\ Group2.png);
+  background-image: url(./src/images/Mask\ Group2.png);
   color: white;
   background-color: #ffe2de;
 }
@@ -377,7 +377,7 @@ h1 {
 }
 
 .active-2:hover {
-  background-image: url(/src/images/Mask\ Group2.png);
+  background-image: url(./src/images/Mask\ Group2.png);
 }
 
 .mask {
